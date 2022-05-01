@@ -1,10 +1,18 @@
+.main-head{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    
+}
 .header{
     display: flex;
+    position: fixed;
     width: 100%;
     height: 10vh;
     justify-content: space-evenly;
     background-color: white;
-    position: fixed;
+
+    
 }
 .menu{
     display: flex;
