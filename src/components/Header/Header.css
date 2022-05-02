@@ -21,9 +21,11 @@
     justify-content: space-evenly;
 }
 .menu li{
-    
     list-style: none;
-
+}
+.menu li:hover{
+    transition: .5s;
+    border-bottom: 3px solid red;
 }
 .menu a{
     text-decoration: none;

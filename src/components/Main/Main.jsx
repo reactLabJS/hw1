@@ -1,5 +1,6 @@
 import './Main.css'
 import photo from '../../assets/img/collina.jpeg'
+import logotype from '../../assets/img/Снимок экрана 2022-05-02 в 14.13.24.png'
 export const Main = () =>{
     return (
         <div>
@@ -76,6 +77,33 @@ export const Main = () =>{
 
                         </div>
                     </div>
+                </div>
+            </section>
+            <section className="block-three">
+                <div className="logotype">
+                    <img src={logotype} alt="" />
+                </div>
+                <div className="join">
+                    <h3>
+                    JOIN THE RED TAB™ MEMBER PROGRAM FOR EXCLUSIVE PERKS
+                    </h3>
+                </div>
+                <div className="membership">
+                    <p>
+                        Membership is free and open to all. Get free shipping on every order, exclusive access to product, a birthday gift and much, much more.
+                    </p>
+                </div>
+                <div className="logging">
+                    <a href="/">
+                        <span>
+                            Sign Up
+                        </span>
+                    </a>
+                    <a href="/">
+                        <span>
+                            Log In
+                        </span>
+                    </a>
                 </div>
             </section>
 
