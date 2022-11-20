@@ -10,7 +10,8 @@ import Home from './Pages/Home';
 
 function App() {
   return (
-    <div>
+    <>
+    
       <Header/>
       <Home/>
       
@@ -20,7 +21,7 @@ function App() {
       <Route path="invoices" element={<ShopWomen/>} />
     </Routes>
 
-    </div>
+    </>
   );
 }
 
