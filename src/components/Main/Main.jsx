@@ -1,6 +1,7 @@
 import './Main.css'
 import photo from '../../assets/img/collina.jpeg'
 import logotype from '../../assets/img/Снимок экрана 2022-05-02 в 14.13.24.png'
+import { Link } from 'react-router-dom'
 export const Main = () =>{
     return (
         <div>
@@ -23,9 +24,11 @@ export const Main = () =>{
                 </div>
                 <div className="buttons">
                     <div className="buttons-inside">
-                        <button>
-                            SHOP MEN
-                        </button>
+                        <Link to='/shopmen'>
+                            <button>
+                                SHOP MEN
+                            </button>
+                        </Link>
                         <button>
                             SHOP WOMEN
                         </button>
@@ -74,7 +77,6 @@ export const Main = () =>{
                                     </a>
                                 </span>
                             </div>
-
                         </div>
                     </div>
                 </div>
